@@ -1,0 +1,205 @@
+html, body {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #26292b;
+	color: #fff;
+}
+
+
+body {
+
+}
+
+
+#outter-container {
+	padding: 0;
+	margin: 0;
+	background-image:url('images/bg_color.png');
+	background-repeat: repeat;
+
+}
+
+#inner-container {
+	padding: 0;
+	margin: 0;
+	text-align: left;
+	background-image:url('images/background.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment:fixed;
+}
+
+h1 {
+	padding: 20px;
+	margin: 0;
+	font-size: 2.4em;
+}
+
+h1 span {
+	background-color: #333;
+	padding: 10px;
+}
+
+
+a:link {color:#fff; text-decoration: none;}      /* unvisited link */
+a:visited {color:#fff;}  /* visited link */
+a:hover {color:#fff;text-decoration: underline;}  /* mouse over link */
+a:active {color:#fff;}  /* selected link */
+
+/* Sections */
+.section {
+
+}
+
+
+#header-outter {
+	background-color: #fff;
+	background-image:url('images/spacebudgie.png');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment:fixed;
+}
+
+#header {
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 900px;
+	height: 200px;
+}
+
+#caption {
+	margin: 0 auto;
+	width: 900px;
+}
+
+#caption p {
+	height: 170px;
+	padding-left: 50px;
+	display: table-cell;
+	vertical-align:middle;
+	font-size: 1.5em;
+}
+
+#contacts {
+	text-align: center;
+	margin: 0 auto;
+	width: 900px;
+}
+
+#contacts span {
+	font-size: 0.75em;
+	color: #999;
+}
+
+#contacts ul, #space-budgie ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#contacts ul li {
+	display: inline;
+}
+
+#contacts li {
+	padding-right: 10px;
+}
+
+
+#space-budgie {
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 900px;
+	height: 300px;
+}
+
+#space-budgie ul {
+	padding-left: 20px;
+	display: inline;
+}
+
+#space-budgie li {
+	margin: 5px;
+	display: inline;
+}
+
+#space-budgie span {
+	font-size: 0.75em;
+	color: #999;
+}
+
+#game-903-outter {
+	background-color: #1d1d77;
+	background-image:url('images/903m.png');
+	background-repeat: no-repeat;
+	background-position: center;
+;}
+
+#game-7dfps-outter {
+	background-color: #fff;
+	background-image:url('images/7dfps.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#game-glitch-outter {
+	background-color: #52a2da;
+	background-image:url('images/glitch.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#credit-outter {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.game {
+	margin: 0 auto;
+	width: 900px;
+	height: 250px;
+}
+
+.game h2 {
+	float: right;
+	padding: 15px;
+	font-size: 2em;
+	background-color: #333;
+}
+
+.game p {
+	width: 400px;
+	height: 150px;
+	padding: 15px;
+	margin: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	
+}
+
+.game span {
+	background-color: #333;
+	padding: 5px;
+}
+
+.game-links {
+	width: 100%;
+	height: 50px;
+	text-align: right;
+	
+}
+
+.game-links ul {
+	list-style-type: none;
+}
+
+.game-links ul li {
+	display: inline;
+}
+
+.game-links li {
+	padding: 10px;
+	background-color: #333;
+	display: inline;
+}
