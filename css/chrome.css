@@ -1,0 +1,331 @@
+/*Set defaults*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	font-family: 'Bebas', sans-serif; 
+	font-size: 50px;
+}
+h2{
+	font-family: "Bebas", sans-serif; 
+	font: bold 60px;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	width: 100%;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	background: #aaaaaa;
+}
+@font-face {
+font-family: 'Bebas';
+	src: url('../fonts/BEBAS___-webfont.eot');
+	src: url('../fonts/BEBAS___-webfont.eot?iefix') format('eot'),
+	     url('../fonts/BEBAS___-webfont.woff') format('woff'),
+	     url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
+	     url('../fonts/BEBAS___-webfont.svg#webfont') format('svg');
+}
+#site_wrapper{
+	max-width: 1000px;
+	margin: 20px 0px;
+	text-align: left;
+	display: -webkit-box;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:vertical;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	/* W3C */
+	display:box;
+	box-orient:vertical;
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	-ms-flex:1.0; /* Internet Explorer 10 */
+	box-flex:1.0;
+	
+}
+#top_header{
+	background: #CCCCCC;
+	border: 3px solid black;
+	padding: 20px;
+
+}
+#links a:link, a:visited, a:hover{
+	color: #ffffff;
+}
+#navbar{
+	background: black;
+	color: white;
+	text-align: center;
+	
+}
+#navbar li{
+	display: inline-block;
+	list-style: none;
+	text-indent: 10px;
+	padding: 5px;
+	padding-bottom: 10px;
+	font: bold 14px Tahoma;
+}
+#new_div{
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:start;
+	-ms-flex-align:start;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:start;
+	-moz-box-align:start;
+
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:start;
+	-webkit-box-align:start;
+
+	/* W3C */
+	display:box;
+	box-pack:start;
+	box-align:start;
+
+}
+#main_section{
+	border-top: 3px solid black;
+	display: -webkit-box;
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	-ms-flex:1.0; /* Internet Explorer 10 */
+	box-flex:1.0;
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	margin: 0px;
+	padding: 20px;
+}
+#game_description{
+	font: 12px Tahoma;
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:vertical;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	/* W3C */
+	display:box;
+	box-orient:vertical;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	margin: 20px;
+	padding: 20px;
+}
+@-moz-document url-prefix() {
+	#notm{	
+		background-origin:border-box;
+	}
+{
+#notm{
+	cursor: pointer;
+	background-image: url("../images/notm.jpg");
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position:left top;
+
+	background-origin:content-box;
+	border: 5px solid black;
+	margin: 0px;
+	margin-right:0px;
+	-webkit-transition: box-shadow 1s;
+	transition: box-shadow 1s;
+	-webkit-border-radius:8px;
+	border-radius: 8px;
+	width: 200px;
+	height: 200px;
+}
+#glitchspace{
+	cursor: pointer;
+	background-image: url("../images/glitchspace.jpg");
+	background-repeat: no-repeat;
+	background-size: 200px;
+	border: 5px solid black;
+	margin: 0px;
+	-webkit-transition: box-shadow 1s;
+		transition: box-shadow 1s;
+	-webkit-border-radius:8px;
+	width: 200px;
+	height: 200px;
+}
+#game_wrap{
+	text-align: center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:vertical;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	/* W3C */
+	display:box;
+	box-orient:vertical;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	display: -webkit-box;
+
+}
+#page_titles{
+	border: 3 solid black;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	text-align: left;
+
+}
+#notm_frame{
+	-webkit-opacity: .1;
+	-moz-opacity: .1;
+	opacity: .1;
+	border: 0px solid black;
+
+	font: 12px Tahoma;
+	text-align: left;
+	padding-left: 10px;
+	margin: 5px 0px;
+	margin-right:10px;
+	-webkit-border-radius:5px;
+	
+	-webkit-transition: box-shadow 1s;
+	transition: box-shadow 1s;
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-webkit-border-radius:2px;
+	width: 200px;
+	height: 200px;
+}
+#notm_frame:hover{
+	notm_frame-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+	cursor: hand;
+}
+#game_wrap:hover{
+	notm_frame-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+#glitchspace:hover{
+	cursor: hand;
+	box-shadow: 0px 0px 40px #99cccc;
+}
+#notm:hover {
+
+	cursor: hand;
+	box-shadow: 0px 0px 40px #6666ff;
+}
+#twitter_feed{
+	border-top: 3px solid black;
+	width: 250px;
+	margin: 0px 0px;
+	padding: 0px;
+}
+#footer_legal{
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid black; 
+}
+article{
+	background: #000000;
+	border: 3px solid black;
+	padding: 0px;
+	margin-bottom: 15px;
+	display:inline-block;
+
+}
+article footer{
+	text-align: left;
+	font: bold 14px Tahoma;
+	color: white;
+	text-align: center;
+	margin-bottom: 5px;
+
+}
+.clear {
+clear:both;
+}

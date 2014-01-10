@@ -1,0 +1,599 @@
+/*Set defaults*/
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+h1{
+	font-family: 'Bebas', sans-serif; 
+	font-size: 40px;
+	color: #888888;
+}
+h2{
+	font-family: "Bebas", sans-serif; 
+	font: bold 30px;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	overflow-y: scroll;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 100%;
+
+	background-color: #000000;
+	font: 12px white Tahoma;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
+@font-face {
+font-family: 'Bebas';
+	src: url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.eot');
+	src: url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.eot?iefix') format('eot'),
+	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.woff') format('woff'),
+	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.ttf') format('truetype'),
+	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.svg#webfont') format('svg');
+}
+@media handheld {
+	#notm_frame{
+		-webkit-opacity: .1;
+		-moz-opacity: .1;
+		opacity: .1;
+	}
+}
+
+#site_wrapper{
+	float:left; 
+	height:50%; 
+	margin-bottom:-120px;
+	width:100%;
+	margin:0 auto;
+
+   text-align:left;
+
+	background-color: #495757;
+	-webkit-border-top-left-radius:40px;
+	-moz-border-radius-topleft:40px;
+	border-top-left-radius:40px;
+	-webkit-border-top-right-radius:40px;
+	-moz-border-radius-topright:40px;
+	border-top-right-radius:40px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom: 20px;
+		background-image: url('../images/BG.png');
+	background-repeat: repeat;
+	border-left: 2px solid #4a8d93;
+	border-right: 2px solid #4a8d93;
+
+}
+
+#top_header{
+	background-image: url('../images/BG.png');
+	background-repeat: repeat;
+	clear:both; 
+	height:240px; 
+	position:relative;
+	background-color:#27787F;
+	-webkit-border-top-left-radius:40px;
+	-moz-border-radius-topleft:40px;
+	border-top-left-radius:40px;
+	-webkit-border-top-right-radius:40px;
+	-moz-border-radius-topright:40px;
+	border-top-right-radius:40px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	padding: 0px ;
+	/* Safari, Opera, and Chrome */
+	border-top: 3px solid #68b4bb;
+	height:100%;
+
+}
+#links a:link, a:visited{
+	color: #cccccc;
+}
+#navbar{
+	clear:both;  
+
+	float:left;
+	color: white;
+	width:700px;
+	padding: 0px;
+	margin:0px;
+
+	height: 50px;
+	z-index: 10;
+
+}
+#navbar li{
+
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin:0px;
+	padding-bottom: 0px;
+	font-family: 'Bebas', sans-serif; 
+}
+
+#nav_wrap{
+    /*-webkit-box-shadow: inset 0px 4px 3px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    inset 0px 4px 3px rgba(50, 50, 50, 0.75);
+    box-shadow:         inset 0px 4px 3px rgba(50, 50, 50, 0.75);*/
+	-webkit-box-shadow: inset 0px 5px 5px -2px #333;
+	box-shadow: inset 0px 5px 5px -2px #333;
+	moz-box-shadow: inset 0px 5px 5px -2px #333;
+	max-width:100%;
+	width: 998px;
+	overflow:hidden;
+	height:50px; 
+	display:inline;
+
+	float: left;
+
+}
+#filler{
+	clear:both;
+	width:100%;
+}
+.button_home, .button_games, .button_about, .button_contact{
+	-webkit-box-shadow:  0px 5px 5px -2px #333 ;
+	box-shadow: 0px 5px 5px -2px #333;
+	moz-box-shadow: 0px 5px 5px -2px #333;
+	/*
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #27787F), color-stop(1, #4D7B7F) );
+	background:-moz-linear-gradient( center top, #27787F 5%, #4D7B7F 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#27787F', endColorstr='#4D7B7F'); */
+	background-color:#27787F;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+
+	border-bottom:1px solid #141414;
+	border-right: 1px solid #141414;
+	border-top:0px;
+	display:inline-block;
+	color:#cccccc;
+	font-family: 'Bebas', sans-serif; 
+	font-size:15px;
+
+	font-style:normal;
+	text-align: center;
+	height:40px;
+	width: 100px;
+	line-height:40px;
+
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #000000;
+	background-image: url('../images/BG.png');
+	background-repeat: repeat;
+	border-top: 1px dotted #141414;
+}
+
+.button_home:hover, .button_games:hover, .button_about:hover, .button_contact:hover {
+
+	color: white;
+}
+.button_games, .button_about, .button_contact{
+border-left:none;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+}
+.button_contact{
+	-webkit-border-bottom-right-radius:15px;
+	-moz-border-radius-bottomright:15px;
+	border-bottom-right-radius:15px;
+}
+#header_title{
+border-left: 1px solid black;
+text-indent: 20px;
+}
+#new_div{
+
+	clear:both; 
+	height:240px; 
+	position:relative;
+	background-color: #495757;
+
+
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+
+	height:100%;
+	text-align: left;
+	margin: 0px;
+		background-image: url('../images/BG.png');
+	background-repeat: repeat;
+}
+
+ @-moz-document url-prefix(){ 
+	#notm{
+		background-origin:border-box !important;
+		background-position:center !important;
+		background-size: 190px !important;
+	}
+	#glitchspace{
+		background-origin:border-box !important;
+		background-position:center !important;
+		background-size: 190px !important;
+	}
+	#page_titles{
+		padding-top: 20px;
+	}
+}
+#desc{
+	vertical-align: top;
+}
+#game_section{
+	clear:both; 
+
+	display: -webkit-box;
+	width: 100%;
+	width: 1000px;
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	-ms-flex:1.0; /* Internet Explorer 10 */
+	box-flex:1.0;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	/* W3C */
+	display:box;
+	box-orient:horizontal;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-box-orient:horizontal;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	margin: 0px;
+	padding: 50px;
+}
+#main_section{
+	clear:both; 
+	display: -webkit-box;
+	width: 100%;
+	width: 1000px;
+	height: 100%;
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	-ms-flex:1.0; /* Internet Explorer 10 */
+	box-flex:1.0;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:vertical;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	/* W3C */
+	display:box;
+	box-orient:vertical;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-box-orient:vertical;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	margin: 0px;
+	padding: 50px;
+ 
+		display: block;
+}
+#banner{
+vertical-align: top;  
+}
+#game_description{
+	
+	display: -webkit-box;
+	display: -moz-box;
+	display: -webkit-flexbox;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	align-content: left;
+	font: 12px Tahoma;
+	color: white;
+	display: -webkit-box;
+	-moz-box-flex:1.0; /* Firefox */
+	-webkit-box-flex:1.0; /* Safari and Chrome */
+	-ms-flex:1.0; /* Internet Explorer 10 */
+	box-flex:1.0;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-orient:vertical;
+	/* Safari, Opera, and Chrome */
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	/* W3C */
+	display:box;
+	box-orient:vertical;
+	/* Internet Explorer 10 */
+	display:-ms-flexbox;
+	-ms-box-orient:vertical;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	/* Firefox */
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	/* Safari, Chrome, and Opera */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	 white-space: pre-wrap;      /* CSS3 */   
+	white-space: -moz-pre-wrap; /* Firefox */    
+	white-space: -pre-wrap;     /* Opera <7 */   
+	white-space: -o-pre-wrap;   /* Opera 7 */    
+	word-wrap: break-word;      /* IE */
+	vertical-align: top;
+}
+
+#notm, #glitchspace{
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: 200px;
+	border: 2px solid black;
+	-webkit-box-shadow:  0px 5px 5px -2px #333 ;
+	box-shadow: 0px 5px 5px -2px #333;
+	moz-box-shadow: 0px 5px 5px -2px #333;
+	margin: 0px;
+	margin-right:0px;
+	padding: 0px;
+	-webkit-transition: box-shadow 1s;
+	transition: box-shadow 1s;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+	width: 200px;
+	height: 200px;
+}
+#glitchspace{
+	background-image: url("http://www.karlsmadness.co.uk/SB/images/glitchspace.jpg");
+}
+#notm{
+	background-image: url("http://www.karlsmadness.co.uk/SB/images/notm.jpg");
+}
+#game_wrap{
+	margin-right: 20px;
+}
+#game_wrapG{
+	
+}
+#page_titles{
+	text-indent: 20px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+	text-align: left;
+	color: #cccccc;
+
+}
+body#home a.button_home,
+body#games a.button_games,
+body#contact a.button_contact,
+body#about a.button_about {
+
+	background-color:#226369;
+	background-image: url('../images/BG.png');
+	background-repeat: repeat;
+}
+
+#glitchspace:hover{
+	cursor: hand;
+	box-shadow: 0px 0px 40px #99cccc;
+}
+#notm:hover {
+
+	cursor: hand;
+	box-shadow: 0px 0px 40px #6666ff;
+}
+#twitter_feed{
+	
+	width: 241px;
+	margin: 0px 0px;
+	padding: 0px;
+	padding-right: 0px;
+	padding-top: 8px;
+	margin-right: 5px;
+
+}
+.fb-like{
+	clear:both;
+	padding-top: 10px;
+	padding-right: 8px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	background-color: #cccccc;
+	padding-left: 8px;
+	padding-bottom: 0px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+	float:right;
+	height: 80px;
+
+}
+#footer_legal{
+	clear:both; height:30px; position:relative;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid black; 
+	background-color: #19565b;
+	color: #cccccc;
+		background-image: url('../images/BG.png');
+	background-repeat: repeat;
+	border-bottom: 3px solid #68b4bb;
+
+}
+article{
+	clear: both;
+	text-align: left;
+	background-color: #fefefe;
+	width: 100%;
+
+	margin: 0 auto -55px; 
+	border: 6px solid #131313;
+	border-top: 12px solid #131313;
+	margin-bottom: 20px;
+	display: inline-block;
+	font: 12px Tahoma;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+}
+article h2{
+	color: #166666;
+}
+
+article header{
+	text-align: left;
+	font: bold 14px Tahoma;
+	color: #222222;
+	background-color: #131313;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+
+}
+article body{
+		padding: 5px;
+
+
+}
+.art_head{
+
+}
+
+.article_content{
+	padding: 5px;
+	padding-top: 0px;
+
+}
+
+.timestamp{
+	font: 10px Tahoma;
+}
+.clear {
+clear:both;
+}
+article footer{
+	font: Tahoma;
+	text-align: right;
+    display: inline;
+    vertical-align: bottom;
+
+}
+article footer, .push {
+  /* .push must be the same height as footer */
+	height: 55px; 
+}
+

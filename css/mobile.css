@@ -1,0 +1,41 @@
+/*Set defaults*/
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+h1{
+	font-family: 'Bebas', sans-serif; 
+	font-size: 40px;
+	color: #888888;
+}
+h2{
+	font-family: "Bebas", sans-serif; 
+	font: bold 30px;
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+body{
+	overflow-y: scroll;
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	height: 100%;
+
+	background-color: #000000;
+	font: 12px white Tahoma;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
+@font-face {
+font-family: 'Bebas';
+	src: url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.eot');
+	src: url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.eot?iefix') format('eot'),
+	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.woff') format('woff'),
+	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.ttf') format('truetype'),
+	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.svg#webfont') format('svg');
+}
+
