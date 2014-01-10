@@ -49,11 +49,11 @@ body{
 }
 @font-face {
 font-family: 'Bebas';
-	src: url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.eot');
-	src: url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.eot?iefix') format('eot'),
-	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.woff') format('woff'),
-	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.ttf') format('truetype'),
-	     url('http://www.karlsmadness.co.uk/SB/fonts/BEBAS___-webfont.svg#webfont') format('svg');
+	src: url('http://www.spacebudgie.com/fonts/BEBAS___-webfont.eot');
+	src: url('http://www.spacebudgie.com/fonts/BEBAS___-webfont.eot?iefix') format('eot'),
+	     url('http://www.spacebudgie.com/fonts/BEBAS___-webfont.woff') format('woff'),
+	     url('http://www.spacebudgie.com/fonts/BEBAS___-webfont.ttf') format('truetype'),
+	     url('http://www.spacebudgie.com/fonts/BEBAS___-webfont.svg#webfont') format('svg');
 }
 @media handheld {
 	#notm_frame{

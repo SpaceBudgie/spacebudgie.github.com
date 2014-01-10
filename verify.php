@@ -28,7 +28,7 @@
        mail($to, $subjectedit, $body, $headers);
 
        // redirect afterwords, if needed
-       header('Location: http://www.karlsmadness.co.uk/SB/messagesuccess.html');
+       header('Location: http://www.spacebudgie.com/messagesuccess.html');
 	   	   echo "<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'>";
   }
 
