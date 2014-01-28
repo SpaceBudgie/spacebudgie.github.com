@@ -573,6 +573,7 @@ blockquote footer{
 	background-color:#132023;
 	color: #999999;
 	padding:10px;
+	margin-bottom: 5px;
 	-webkit-border-top-left-radius:10px;
 	-moz-border-radius-topleft:10px;
 	border-top-left-radius:10px;
