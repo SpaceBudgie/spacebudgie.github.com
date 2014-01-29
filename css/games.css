@@ -117,7 +117,7 @@
 	vertical-align: top;
 }
 
-#notm, #glitchspace, #no_way_out{
+#notm, #glitchspace, #no_way_out, #light_in_the_night{
 	cursor: pointer;
 	border: 15px solid #132023;
 	-webkit-box-shadow:  0px 5px 5px -2px #333 ;
@@ -163,7 +163,7 @@
 	border-bottom-left-radius:15px;
 
 }
-#gs_image, #notm_image #no_way_out_image{
+#gs_image, #notm_image, #no_way_out_image, #light_in_the_night_image{
 	max-width: 100%;
 	max-height: 100%;
 	-webkit-border-top-left-radius:5x;
@@ -209,7 +209,13 @@ font-size: 12px;
 	opacity: 1;
 }
 
-#no_way_out p, #glitchspace p, #notm p, #g_description p{
+.lower_game_contain:hover #light_in_the_night p{
+	cursor: hand;
+	box-shadow: 0px 0px 40px #99cccc;
+	opacity: 1;
+}
+
+#no_way_out p, #glitchspace p, #notm p, #g_description p, #light_in_the_night p{
 	-webkit-transition: box-shadow 1s;
 	transition: box-shadow 1s;
 	transition: opacity 1s;
