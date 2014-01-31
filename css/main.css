@@ -438,6 +438,22 @@ margin: 0 auto;
 	text-align:center;
 	border:3px solid #132023;
 }
+
+#gs_buy_img{
+	border: 4px solid #132023;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:40px;
+	-moz-border-radius-topright:40px;
+	border-top-right-radius:40px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:40px;
+	-moz-border-radius-bottomleft:40px;
+	border-bottom-left-radius:40px;
+}
 article{
 	clear: both;
 	text-align: left;
