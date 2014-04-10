@@ -586,6 +586,7 @@ blockquote footer{
 	text-align:left;
 }
 .side_bar_div{
+	font: 10px Tahoma;
 	background-color:#132023;
 	color: #999999;
 	padding:10px;
