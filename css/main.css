@@ -586,7 +586,7 @@ blockquote footer{
 	text-align:left;
 }
 .side_bar_div{
-	font: 10px Tahoma;
+	font: 12px Tahoma;
 	background-color:#132023;
 	color: #999999;
 	padding:10px;
@@ -603,6 +603,10 @@ blockquote footer{
 	-webkit-border-bottom-left-radius:10px;
 	-moz-border-radius-bottomleft:10px;
 	border-bottom-left-radius:10px;
+}
+.side_bar_div a {
+	color: #cccccc;
+
 }
 .timestamp{
 	font: 10px Tahoma;
